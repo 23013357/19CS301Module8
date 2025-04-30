@@ -127,8 +127,7 @@ for i in range(N):
 
 
 EX: 8.d program to square all the even numbers and cube all odd numbers from a list of integers
-### Aim: To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
-
+### Aim: To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list
 
 ### Algorithm:
 
