@@ -61,31 +61,60 @@ while(n>0):
 ### Result: Thus, the given program is implemented and executed successfully .
  
 
-EXPT NO 8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
-### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them in a list and find the score of the runner-up.
+EXPT NO 8C 
+### Aim: To Initialize your list and read in the value of n followed by n lines of commands where each command will be of the 7 types listed above. Iterate through each command in order and perform the corresponding operation on your list.
 
 
 ### Algorithm:
-STEP 1: Start.
+Start the program.
 
-STEP 2: Create a variable n.
+Input an integer N (the number of commands to be executed).
 
-STEP 3: Get the value of n from user.
+Initialize an empty list l.
 
-STEP 4: Get the number of inputs from user and split the input and append in a list. STEP 5: Using set function remove duplicates from the list.
+Repeat the following steps N times:
 
-STEP 6: Using sort function reorder the list in ascending order. STEP 7: Print the result.
+Read a line of input and split it into a list s.
 
-STEP 8: Stop.
+Based on the first element of s (i.e., the command), perform the corresponding operation:
+
+If s[0] is 'insert': insert int(s[2]) at index int(s[1]) in list l.
+
+If s[0] is 'remove': remove the first occurrence of int(s[1]) from list l.
+
+If s[0] is 'append': add int(s[1]) to the end of list l.
+
+If s[0] is 'pop': remove the last element of the list l.
+
+If s[0] is 'sort': sort the list in ascending order.
+
+If s[0] is 'reverse': reverse the order of elements in the list.
+
+If s[0] is 'print': display the current state of the list l.
+
+End the program.
 
 
 ### Program:
-```if  name	== '   main    ':
-          n = int(input())
-          arr = map(int, input().split())
-          arr2 = list(set(arr))
-          arr2.sort()
-print(arr2[-2])
+```
+N=int(input())
+l=[]
+for i in range(N):
+    s=input().split()
+    if s[0]=='insert':
+        l.insert(int(s[1]),int(s[2]))
+    elif s[0]=='remove':
+        l.remove(int(s[1]))
+    elif s[0]=='append':
+        l.append(int(s[1]))
+    elif s[0]=='pop':
+        l.pop()
+    elif s[0]=='sort':
+        l.sort()
+    elif s[0]=='reverse':
+        l.reverse()
+    elif s[0]=='print':
+        print(l)
 ```
 ### Output:
  
