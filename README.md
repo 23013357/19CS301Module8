@@ -31,37 +31,29 @@ print(dis/speed)
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-EXPTNo.8b program to display elements from a list, present at odd index positions
+EXPTNo.8b program to  print the numbers in reverse order.
 
-### Aim: To Write a python program to display elements from a list, present at odd index positions
+### Aim: To Write a python program to  print the numbers in reverse order
 ### Algorithm:
 
 STEP 1: Start.
 
-STEP 2: Define a function.
+STEP 2: Get the input of a from user.
 
-STEP 3: Create a list and a variable a.
+STEP 3: Using while loop .
 
-STEP 4: Get the input of a from user.
+STEP 4: get the unit digit.
 
-STEP 5 : Using loop get the inputs and append in list.
+STEP 5:print modulo 10
 
-STEP 6: Using another loop print the elements in the odd index position of the list. 
-
-STEP 7: Stop.
+STEP 6: Stop.
 
 ### Program:
 ```
-def odd(a):
-         l=[]
-          for i in range(a):
-x = int(input())
-l.append(x)
-for i in range(a):
-           if i%2!=0:
-                print(l[i], end=" ")
- a = int(input())
-odd(a)
+n=int(input())
+while(n>0):
+    print(n%10,end="")
+    n=n//10
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
@@ -69,7 +61,7 @@ odd(a)
 ### Result: Thus, the given program is implemented and executed successfully .
  
 
-EXPT NO>8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
+EXPT NO 8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
 ### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
          in a list and find the score of the runner-up.
 
