@@ -56,7 +56,7 @@ while(n>0):
     n=n//10
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
+![image](https://github.com/23013357/19CS301Module8/blob/main/mm.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
