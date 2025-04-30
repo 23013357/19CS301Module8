@@ -1,30 +1,29 @@
 # 19CS301Module8
-EXPTNO.8a Program to find Find the simple interest
+EXPTNO.8a Program to find Find the time.
 
-### Aim: To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
+### Aim: To Write a python program to find the time taken to cross an electric pole? [Distance = speed*time]
 ### Algorithm:
 
 STEP 1: Start.
 
-STEP 2: Define a function.
+STEP 2:Assign the value 75 to the variable dis.
 
-STEP 3: Create variable 'p','r','t' for principal,rate of interest and time. STEP 4: Get the input of p,r and t from user.
+STEP 3:Multiply 54 by (5 / 18) and store the result in speed.
 
-STEP 5 : Using the formula (p*r*t)/100 calculate the result. STEP 6: Print the result.
+STEP 4: time = dis / speed
 
-STEP 7: Stop.
+STEP 5: Print the value of time.
+
+STEP 6: Stop.
 
 ### Program:
 ```
-def simpleInterest(p,t,r):
-      si = p*t*r/100
-       return si
-p = eval(input())
-r = eval(input())
-t = eval(input())
+dis=75
+speed=54*(5/18)
+print(dis/speed)
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/0cc71222-9697-4545-a937-b330407cbc02)
+![image](https://github.com/23013357/19CS301Module8/blob/main/nn.png)
 
 
 
