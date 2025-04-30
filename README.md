@@ -118,7 +118,7 @@ for i in range(N):
 ```
 ### Output:
  
-![image](https://github.com/user-attachments/assets/032939c0-f500-4bbb-9b19-87b3c54d8454)
+![image](https://github.com/23013357/19CS301Module8/blob/main/q.png)
 
  
 
