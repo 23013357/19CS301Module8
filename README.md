@@ -158,6 +158,32 @@ f,l = int(input()),int(input())
 
 
 ### Result: Thus, the given program is implemented and executed successfully .
- 
+
+
+ EXPTNO.8e Reverse the sentence.
+### Aim:
+To Write a python program to  print the sentence by reversing each word in sentence.
+
+### Algorithm
+
+Split the input string into words
+
+reverse each word
+
+print the reversed words separated by spaces.
+
+
+### Program:
+```
+n=input().split()
+for i in n:
+    print(i[::-1],end=" ")
+```
+### Output:
+![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/module8%20ka%20image.png)
+
+
+### Result:
+Thus, the given program is implemented and executed successfully .
 
 
