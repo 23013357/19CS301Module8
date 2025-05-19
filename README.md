@@ -180,7 +180,7 @@ for i in n:
     print(i[::-1],end=" ")
 ```
 ### Output:
-![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/module8%20ka%20image.png)
+![image](https://github.com/23013357/19CS301Module8/blob/main/modul%208.png)
 
 
 ### Result:
