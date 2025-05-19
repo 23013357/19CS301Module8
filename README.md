@@ -1,7 +1,8 @@
 # 19CS301Module8
 EXPTNO.8a Program to find Find the time.
 
-### Aim: To Write a python program to find the time taken to cross an electric pole? [Distance = speed*time]
+### Aim: 
+To Write a python program to find the time taken to cross an electric pole? [Distance = speed*time]
 ### Algorithm:
 
 STEP 1: Start.
@@ -33,7 +34,8 @@ print(dis/speed)
 
 EXPTNo.8b program to  print the numbers in reverse order.
 
-### Aim: To Write a python program to  print the numbers in reverse order
+### Aim: 
+To Write a python program to  print the numbers in reverse order
 ### Algorithm:
 
 STEP 1: Start.
@@ -62,7 +64,8 @@ while(n>0):
  
 
 EXPT NO 8C 
-### Aim: To Initialize your list and read in the value of n followed by n lines of commands where each command will be of the 7 types listed above. Iterate through each command in order and perform the corresponding operation on your list.
+### Aim: 
+To Initialize your list and read in the value of n followed by n lines of commands where each command will be of the 7 types listed above. Iterate through each command in order and perform the corresponding operation on your list.
 
 
 ### Algorithm:
@@ -127,7 +130,8 @@ for i in range(N):
 
 
 EX: 8.d program to square all the even numbers and cube all odd numbers from a list of integers
-### Aim: To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list
+### Aim: 
+To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list
 
 ### Algorithm:
 
