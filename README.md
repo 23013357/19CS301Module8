@@ -65,7 +65,7 @@ while(n>0):
 
 EXPT NO 8C 
 ### Aim: 
-To Initialize your list and read in the value of n followed by n lines of commands where each command will be of the 7 types listed above. Iterate through each command in order and perform the corresponding operation on your list.
+To Initialize your list and read in the value of n followed by n lines of commands where each command will be of the 7 types. Iterate through each command in order and perform the corresponding operation on your list.
 
 
 ### Algorithm:
